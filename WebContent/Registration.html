@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+</head>
+<body>
+<form action ="Registration.jsp" method="post">
+<table>
+<tr><td>
+UserName</td>
+<td><input type="text" name="user"  required/></td>
+</tr>
+<tr>
+<td>
+Password</td>
+<td>
+ <input type="password" name="pwd" required/>
+ </td>
+</tr>
+<tr>
+<td>
+FirstName
+</td>
+<td>
+<input type="text" name="fname" pattern="[A-Za-z]{1,}" required/>
+</td>
+</tr>
+<tr>
+<td>
+LastName</td>
+<td>
+<input type="text" name="lname" pattern="[A-Za-z]{1,}" required/></td>
+</td>
+<tr>
+<td>
+Email</td>
+<td><input type="email" name="email" required/><td>
+</tr>
+</table>
+<input type="submit"/>
+
+</form>
+</body>
+</html>
